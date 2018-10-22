@@ -1,0 +1,24 @@
+<!--
+  Generated template for the MdnOlPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Track</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding style = "background-color: #82A3A1">
+    <ion-list style = "background-color: #82A3A1">
+
+        <ion-item style = "background-color: #98B3B2" *ngFor = "let cancion of cancionesMd" >
+          {{cancion}}
+        </ion-item>
+       </ion-list>  
+
+</ion-content>
